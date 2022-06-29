@@ -46,3 +46,8 @@ def on_click_val(click1, click2, click3):
         return "tab-4"
     else:
         return "tab-0"
+    
+    
+    
+if __name__ == '__main__':
+    app.run_server(debug=True)   # "debug = True" allows us to see the changes in the browser without running the file again.     
